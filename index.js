@@ -9,7 +9,7 @@ let selectPicture = function(event)
 // first get clicked image & url
   let thisImage = jQuery(this)
   let imageSrc = thisImage.attr("src")
-// output to check
+// output to check 
   console.log(thisImage)
   console.log(imageSrc)
 
@@ -22,4 +22,3 @@ let selectPicture = function(event)
 
   // new code:
   jQuery("img").on("click", selectPicture)
-  
